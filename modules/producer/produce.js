@@ -39,7 +39,7 @@ const produce = async () => {
 		} catch (err) {
 			console.error("could not write message " + err)
 		}
-	}, 1000)
+	}, 2000)
 }
 
 module.exports = produce
